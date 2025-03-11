@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Needed for DaisyUI Sidebar Drawer debug */
+html:has(.drawer-toggle:checked) {
+  scrollbar-gutter: auto;
+}
